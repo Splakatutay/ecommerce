@@ -1,0 +1,22 @@
+{
+    "name": "rcborinaga/ecommerce",
+    
+    "require": {
+        
+    },
+    
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Rcborinaga\\Ecommerce\\ECommerceServiceProvider"
+    		]
+    	}
+    },
+    
+    "autoload": {
+    	"psr-4": {
+    		"Rcborinaga\\Ecommerce\\": "src"
+    	}
+    }
+
+}
